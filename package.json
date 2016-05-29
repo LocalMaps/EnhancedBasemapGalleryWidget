@@ -1,0 +1,24 @@
+{
+  "name": "enhanced-basemap-gallery",
+  "version": "2.0.1",
+  "description": "This widget is enhanced to include the ability to fade between basemaps.",
+  "files": [ "src/widgets" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LocalMaps/EnhancedBasemapGalleryWidget.git"
+  },
+  "keywords": [
+    "LocalMaps",
+    "Widget",
+    "BasemapGallery"
+  ],
+  "author": "Esri R&D Center Beijing & Robert Scheitlin & LocalMaps",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "bugs": {
+    "url": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget/issues"
+  },
+  "homepage": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget#readme"
+}
