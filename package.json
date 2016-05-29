@@ -1,5 +1,5 @@
 {
-  "name": "enhanced-basemap-gallery",
+  "name": "enhanced-basemap-gallery-widget",
   "version": "2.0.1",
   "description": "This widget is enhanced to include the ability to fade between basemaps.",
   "files": [ "src/widgets" ],
