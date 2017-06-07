@@ -272,7 +272,7 @@ define([
         var sNode = query(".esriBasemapGalleryLabelContainer span", this.selectedBasemapGalleryNode)[0];
         var sNode2 = query(".esriBasemapGalleryThumbnail", this.selectedBasemapGalleryNode)[0];
         array.some(this.basemapGallery.basemaps, lang.hitch(this,function(lyr){
-          if(this.webmapBasemap.title === lyr.title || this.webmapBasemap.layers[0].url === lyr.layers[0].url){
+          if(this.webmapBasemap.title === lyr.title){
             var tNode = query('.esriBasemapGalleryNode > .esriBasemapGalleryLabelContainer span[ title = "' + lyr.title + '" ]', this.id).parent().parent()[0];
             this.selectedBMNode = tNode;
             html.setStyle(tNode,'display','none');
@@ -566,7 +566,7 @@ define([
         var sNode4 = query(".esriBasemapGalleryThumbnail", this.selectedBasemap1)[0];
 
         array.some(this.basemapGallery.basemaps, lang.hitch(this,function(lyr){
-          if(basemap.title === lyr.title || basemap.layers[0].url === lyr.layers[0].url){
+          if(basemap.title === lyr.title){
             var tNode = query('.esriBasemapGalleryNode > .esriBasemapGalleryLabelContainer span[ title = "' +
                               lyr.title + '" ]', this.id).parent().parent()[0];
             html.setStyle(tNode, 'display', 'none');

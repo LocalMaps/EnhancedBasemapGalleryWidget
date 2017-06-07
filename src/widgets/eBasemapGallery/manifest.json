@@ -1,13 +1,13 @@
 {
-  "name": "eBasemapGallery",
+  "name": "BasemapGallery",
   "type": "widget",
   "label": "Enhanced Basemap Gallery",
   "platform": "HTML",
-  "version": "2.0.1",
-  "wabVersion": "2.0.1",
+  "version": "1.4",
+  "wabVersion": "1.4",
   "author": "Esri R&D Center Beijing & Robert Scheitlin",
   "description": "This widget is enhanced to include the ability to fade between basemaps",
-  "copyright": "2014",
+  "copyright": "2017",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "properties": {
     "hasVersionManager": false

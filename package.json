@@ -1,24 +1,81 @@
 {
-  "name": "enhanced-basemap-gallery-widget",
-  "version": "2.0.1",
-  "description": "This widget is enhanced to include the ability to fade between basemaps.",
-  "files": [ "src/widgets" ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "enhanced-basemap-gallery-widget@^2.0.1",
+      "C:\\Users\\grant\\Source\\Repos\\LocalMaps\\src\\Viewer"
+    ]
+  ],
+  "_from": "enhanced-basemap-gallery-widget@>=2.0.1-0 <3.0.0-0",
+  "_id": "enhanced-basemap-gallery-widget@2.0.1",
+  "_inCache": true,
+  "_location": "/enhanced-basemap-gallery-widget",
+  "_nodeVersion": "6.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/enhanced-basemap-gallery-widget-2.0.1.tgz_1464564874907_0.7905006699729711"
   },
+  "_npmUser": {
+    "email": "davetimmins@outlook.com",
+    "name": "davetimmins"
+  },
+  "_npmVersion": "3.8.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "enhanced-basemap-gallery-widget",
+    "raw": "enhanced-basemap-gallery-widget@^2.0.1",
+    "rawSpec": "^2.0.1",
+    "scope": null,
+    "spec": ">=2.0.1-0 <3.0.0-0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/enhanced-basemap-gallery-widget/-/enhanced-basemap-gallery-widget-2.0.1.tgz",
+  "_shasum": "70e3381308152bc6e40a6a94680367e18b245b9f",
+  "_shrinkwrap": null,
+  "_spec": "enhanced-basemap-gallery-widget@^2.0.1",
+  "_where": "C:\\Users\\grant\\Source\\Repos\\LocalMaps\\src\\Viewer",
+  "author": {
+    "name": "Esri R&D Center Beijing & Robert Scheitlin & LocalMaps"
+  },
+  "bugs": {
+    "url": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget/issues"
+  },
+  "dependencies": {},
+  "description": "This widget is enhanced to include the ability to fade between basemaps.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "70e3381308152bc6e40a6a94680367e18b245b9f",
+    "tarball": "https://registry.npmjs.org/enhanced-basemap-gallery-widget/-/enhanced-basemap-gallery-widget-2.0.1.tgz"
+  },
+  "files": [
+    "src/widgets"
+  ],
+  "gitHead": "819510bf62c9bdac4328295370842f562be9ebd3",
+  "homepage": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget#readme",
+  "installable": true,
+  "keywords": [
+    "BasemapGallery",
+    "LocalMaps",
+    "Widget"
+  ],
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "maintainers": [
+    {
+      "name": "davetimmins",
+      "email": "davetimmins@outlook.com"
+    }
+  ],
+  "name": "enhanced-basemap-gallery-widget",
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LocalMaps/EnhancedBasemapGalleryWidget.git"
   },
-  "keywords": [
-    "LocalMaps",
-    "Widget",
-    "BasemapGallery"
-  ],
-  "author": "Esri R&D Center Beijing & Robert Scheitlin & LocalMaps",
-  "license": "http://www.apache.org/licenses/LICENSE-2.0",
-  "bugs": {
-    "url": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/LocalMaps/EnhancedBasemapGalleryWidget#readme"
+  "version": "2.0.1"
 }
